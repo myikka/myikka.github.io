@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Only the site's own files load: its stylesheet, fonts, images and menu script. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <title>Privacy policy · myikka</title>
+  <meta name="description" content="The myikka app&#39;s privacy policy, as the app shows it. In short, the app keeps everything on your phone and sends nothing.">
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  
+  <script src="/assets/nav.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="/" aria-label="myikka home">
+        <img src="/assets/icon.svg" width="32" height="32" alt="">
+        <span>myikka</span>
+      </a>
+      <nav class="header-nav" aria-label="Site">
+        <a href="/#features">Features</a>
+        <a href="/#how">How it works</a>
+        <a href="/#privacy">Privacy</a>
+        <a href="/#name">The Name</a>
+      </nav>
+      <a class="btn btn-dark btn-sm support-cta" href="/#support">Support &amp; Feedback</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+  <div class="container narrow">
+    <p class="eyebrow">The myikka app</p>
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated 1 November 2026</p>
+  </div>
+</section>
+<article class="container narrow prose">
+  <!-- Made by myikka's backend/scripts/export_privacy_page.py from the app's policies.json: don't edit here. -->
+<p class="callout">The privacy policy shown in the myikka app (version 2026-11-01). This website has its own: <a href="/website-privacy/">website privacy policy</a>.</p>
+
+<h2>In short</h2>
+<p>The myikka app is fully offline and keeps everything on your phone. It has no internet permission, so it can&#x27;t send your data to us or to anyone else, and we never receive it.</p>
+<p>This policy covers the myikka Android app.</p>
+
+<h2>What the app reads and keeps on your phone</h2>
+<p>The app stores the following in its private storage on your phone, which other apps can&#x27;t read. None of it is sent anywhere.</p>
+<p><strong>Bank SMS (only if you allow it).</strong> Reading SMS is the only permission the app asks for, and it is optional. The app asks only when you tap “Allow SMS access”, and works without it: you can add spends from statements or by hand.</p>
+<p>If you allow it, the app asks Android only for messages from the sender names of the banks it can read (American Express, AU Small Finance Bank, Axis Bank, HDFC Bank, HSBC, ICICI Bank and SBI Card) and of any other bank whose card you added with its sender name. Of those, it uses only card purchase and refund alerts. OTPs, account alerts, offers and all your other messages are ignored and never stored.</p>
+<p><strong>Cards you haven&#x27;t added.</strong> When an alert is for a card you haven&#x27;t added, the app keeps nothing from it. It only shows the bank and the card&#x27;s last 4 digits on the Add a card screen, so you can add that card with one tap. This is worked out again each time you open that screen and is never stored.</p>
+<p>From each purchase or refund alert for your cards it keeps the amount, the merchant, the date and time, the card&#x27;s last 4 digits and how you paid (for example UPI). It also keeps a fingerprint of the message (a one-way code that can&#x27;t be turned back into the text) so the same message is never counted twice. It never keeps the message text.</p>
+<p>If you teach the app a new SMS format, it keeps the format (fixed words, with placeholders for the amount, merchant and date), not your message.</p>
+<p><strong>Card statements (only when you open one).</strong> You choose a statement PDF with Android&#x27;s file picker, or share it to the app. The app reads its lines, totals, dates, amount due and rewards. It doesn&#x27;t keep the PDF.</p>
+<p>If the PDF has a password and you tick “Remember”, the password is kept encrypted with a key held by your phone&#x27;s Android Keystore, so the next statement opens without typing it. Otherwise it is used once and forgotten.</p>
+<p><strong>What you enter.</strong> Your cards (name, bank, last 4 digits, membership and statement dates), categories, transactions you add or change, your answers to the app&#x27;s checks, sale offers and your own reward rules.</p>
+<p><strong>Your acceptance.</strong> When you tap Continue on the welcome screen, the app keeps which versions of the terms of service and this policy you accepted, and the date and time, on your phone.</p>
+<p><strong>App lock.</strong> If you turn it on, the app asks for your phone&#x27;s own screen lock. Android checks it; the app never sees your PIN, pattern or fingerprint.</p>
+
+<h2>What can leave your phone</h2>
+<p>Nothing leaves your phone by itself. These happen only when you choose them:</p>
+<p><strong>Backup:</strong> the app writes an encrypted backup file (scrypt and AES-256-GCM) to a place you pick. Without your passphrase nobody can read it, and nobody can recover a forgotten passphrase, including us.</p>
+<p><strong>Add to calendar:</strong> opens your calendar app with an event “Pay &lt;card name&gt; bill” on the due date, with no amount or card digits. Your calendar app may sync it to your account.</p>
+<p><strong>Feedback and support:</strong> opens our website, myikka.github.io, in your phone&#x27;s browser. The app adds nothing to the address and sends nothing with it. What you then write to us, and the website itself, are covered by the website&#x27;s privacy policy.</p>
+<p><strong>Sources:</strong> where the app shows a bank&#x27;s own page or document (a card&#x27;s rules, or “Your card&#x27;s terms” on Which card?), tapping Open shows it in your phone&#x27;s browser, or Copy address copies its address where the bank asks apps not to link to it. The app adds nothing to the address and sends nothing with it. The bank&#x27;s website has its own terms and privacy policy.</p>
+<p><strong>Shops&#x27; offer pages:</strong> where Cards → Sale offers lists shops, tapping one shows the shop&#x27;s own offers page, or its home page, in your phone&#x27;s browser, or Copy address copies its address where the shop&#x27;s terms don&#x27;t allow apps to link to it. The app adds nothing to the address and sends nothing with it. The shop&#x27;s website has its own terms and privacy policy.</p>
+<p><strong>Copy buttons</strong> (for example dispute details for your bank) put text on your phone&#x27;s clipboard for you to paste wherever you choose.</p>
+<p>Android&#x27;s own cloud backup and device-to-device transfer are turned off for the app, so its data isn&#x27;t copied to Google&#x27;s servers or to another phone.</p>
+
+<h2>Keeping and deleting your data</h2>
+<p>The app&#x27;s data stays on your phone until you delete it. Uninstalling the app, or clearing its storage in your phone&#x27;s settings, deletes all of it. Inside the app you can also delete a statement you imported.</p>
+<p>Backup files are yours: delete them where you saved them.</p>
+<p>We hold no data about the app&#x27;s users, so there is nothing for us to delete.</p>
+
+<h2>E-mail</h2>
+<p>If you write to us, we use your address and message only to reply. We delete them when you ask, unless the law requires us to keep them. Please never send card numbers, OTPs or passwords.</p>
+
+<h2>Children</h2>
+<p>myikka is meant for adults who hold credit cards. It isn&#x27;t directed at children.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the app asks you to accept the new version. Questions about privacy: write to us through the contact page on myikka.github.io.</p>
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">
+            <img src="/assets/icon.svg" width="32" height="32" alt="">
+            <span>myikka</span>
+          </a>
+          <p class="footer-tagline">har payment ka hukum ka ikka</p>
+          <p>A free Android app that picks the right credit card for every payment. Everything stays on your phone.</p>
+        </div>
+        <nav aria-label="App">
+          <h2>App</h2>
+          <a href="/#features">Features</a>
+          <a href="/#how">How it works</a>
+          <a href="/#privacy">Privacy by design</a>
+          <a href="/#name">Why &ldquo;myikka&rdquo;</a>
+          <a href="/#support">Support &amp; Feedback</a>
+        </nav>
+        <nav aria-label="Policies">
+          <h2>Policies</h2>
+          <a href="/privacy/">App privacy policy</a>
+          <a href="/website-privacy/">Website privacy policy</a>
+          <a href="/terms/">Terms</a>
+          
+          <a href="/contact/">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-legal">
+        <p>myikka isn't affiliated with any bank. Bank and card names belong to their owners.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
